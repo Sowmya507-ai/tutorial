@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        
+        
+    </head>
+
+    </div>
+    <body>
+        <button>load Names</button>
+        <button>remove Names</button>
+        <div></div>
+        <script>
+            let names=["A","B","C"];
+            let div =document.querySelector("div")
+            const btn=document.querySelector("button")
+            let ol=document.createElement("ol");
+            btn.addEventListener("click",()=>{
+               
+            for (let i of names){
+                let li=document.createElement("li");
+                li.textContent=i
+                ol.appendChild(li)
+            }
+            div.appendChild(ol)
+            
+            
+            }
+            
+                
+            );
+        </script>
+    </body>
+</html>

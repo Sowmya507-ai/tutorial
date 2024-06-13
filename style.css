@@ -1,0 +1,57 @@
+h3 {
+   
+    background-color: rgb(6, 43, 6);
+    text-align: center;
+    padding: 20px; 
+    color: white;
+    border-radius: 5px; 
+    margin: 0; 
+    font-size: 30px; 
+    height: 50px;
+}
+p {
+    text-align: left;
+    font-size: 25px;
+    margin-left: 50px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    width: 400px;
+
+}
+
+#name{
+    height: 50px;
+}
+ button{
+    height: 50px;
+    background-color: rgb(6, 43, 6);
+    color: white;
+ }
+ .container {
+    display: flex;
+}
+
+.form-container {
+    flex: 1;
+    margin-right: 20px; 
+}
+
+.list-container {
+    flex: 1;
+
+}
+
+#Recipe-list {
+     margin-bottom: 10px;
+     font-size: 25px;
+     padding-top: 25px;
+
+}
+#search{
+    height: 50px;
+    width: 500px;
+}
+

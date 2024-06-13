@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <script>
+          //loops
+            //for loop
+            const fruits = ["apple", "banana", "orange", "grape"];
+
+            for (let i = 0; i < fruits.length; i++) {
+            console.log(fruits[i]);
+            }
+            //do while
+            let count = 10;
+            do {
+            console.log(count);
+            count--;
+             } 
+             while (count > 0);
+            
+            //while loop
+            let Count = 0;
+            while (Count < 5) {
+            Console.log(count);
+            Count++;
+            }
+       
+            //For in loop
+            const person = {
+            name: "Sowmya",
+            age: 20,
+            gender: "female"
+            };
+
+            for (let key in person) {
+            console.log(key + ": " + person[key]);
+            }
+
+            //for of loop
+            const numbers = [1, 2, 3, 4, 5];
+
+              for (let number of numbers) {
+            console.log(number);
+            }
+            
+            //break
+            for (let i = 0; i < 10; i++) {
+            console.log(i);
+            if (i === 5) {
+            break; 
+           }
+           }
+
+           //continue
+           for (let i = 0; i < 5; i++) {
+          if (i === 2) {
+          continue;
+          }
+           console.log(i);
+          }
+        
+  
+        </script>
+    </body>
+</html>

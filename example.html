@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <body>
+<form>
+
+    <input type="number" id="b" name="b" value="50" /> +
+    <input type="number" id="a" name="a" value="10" /> =
+    <output name="result" for="a b"></output>
+</form>
+<script>
+    const output = document.getElementsByName("result")[0]
+    const inputA = document.getElementById('a')
+    const inputB = document.getElementById('b')
+    output.innerText = Number(inputA.value) + Number(inputB.value)
+</script>
+</body>
+</html>

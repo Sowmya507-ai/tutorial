@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gender Selection</title>
+</head>
+<body>
+
+<script>
+function myfunction() {
+    let gender = document.querySelector('input[name="gender"]:checked').value;
+    console.log(`Gender: ${gender}`);
+}
+</script>
+
+Gender: Male <input type="radio" value="male" id="male" name="gender" checked />
+Female <input type="radio" value="female" id="female" name="gender" /> <br>
+<input type="button" value="submit" onclick="myfunction()" />
+
+</body>
+</html>
